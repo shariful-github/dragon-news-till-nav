@@ -15,7 +15,7 @@ const Header = () => {
                 <p className='text-secondary fw-semibold'>{moment().format('dddd, MMMM D, YYYY')}</p>
             </div>
             <div className='bg-secondary-subtle p-3 w-75 mx-auto d-flex'>
-                <Button variant="danger" className='rounded-0'>Latest</Button>
+                <Button variant="danger" className='rounded-0 px-4'>Latest</Button>
                 <Marquee className='ms-3' pauseOnHover speed={'50'}>
                     Match Highlights: Germany vs Spain — as it happened!   Match Highlights: Germany vs Spain.
                 </Marquee>
@@ -29,7 +29,7 @@ const Header = () => {
                 </div>
                 <div className='text-end col pe-0'>
                     <img src={userIcon} style={{width: '37px'}} alt="" />
-                    <Button className="btn btn-secondary ms-2 me-0 rounded-0">Login</Button>
+                    <Button className="btn btn-secondary ms-2 me-0 rounded-0 px-5">Login</Button>
                 </div>
             </nav>
         </div>
